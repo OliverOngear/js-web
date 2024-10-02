@@ -6,7 +6,7 @@ class MiComponente extends HTMLElement {
         super();
         
         /* Comprobamos el procesos de creacion */
-        console.log("se accedio al componente")
+        console.log("se inicio el constructor")
 
         /* guardamos la ruta del arbol doom en una costante */
         const shadow = this.attachShadow({ mode: 'open' });
